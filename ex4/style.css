@@ -1,0 +1,137 @@
+body{
+    width: 100%;
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #494848;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3{
+    font-weight: 500;
+}
+
+h3{
+    font-size: 16px;
+}
+
+.app{
+    width: 60%;
+}
+
+.header{
+    width: 100%;
+}
+
+.header h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.header h2{
+    font-size: 16px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main-icon{
+    width: 128px;
+    height: 128px;
+    padding: 0 10px;
+}
+
+.main-temp{
+    font-weight: 700;
+}
+
+.main-temp span {
+    font-weight: 400;
+    color: darkgray;
+}
+
+.main-weath_data{
+    padding: 0 10px;
+}
+
+.main-weath_data h3{
+    font-size: 16px;
+    color: darkgray;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.main-weath_data span{
+    color: #494848;
+}
+
+
+.main-temp{
+    padding: 0 20px;
+}
+
+.weather_list{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 2px solid darkgray;
+    font-size: 16px;
+
+}
+
+
+
+.list-item:last-child{
+    border-bottom: 2px solid darkgray;
+}
+
+.list-day{
+    width: 20%;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.list-icon{
+    width: 20%;
+    width: 64px;
+    height: 64px;
+}
+
+.weather_list span{
+    text-align: center;
+    width: 35%;
+}
+
+
+.list-temp_day{
+    margin-bottom: 4px;
+}
+
+.list-temp_night{
+    color: darkgray;
+    margin-top: 0;
+}
+
+.list-humidity{
+    text-align: right;
+    width: 25%;
+    color: darkgray;
+}
+
+
+
+
