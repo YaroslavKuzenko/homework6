@@ -3,8 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Плеєри</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+<div id="audioplayer">
+    <h2>Музика</h2>
+    <figure>
+        <figcaption>The Beatles - Blackbird</figcaption>
+        <audio src="music/The%20Beatles%20-%20Blackbird.mp3" controls preload="metadata"></audio>
+    </figure>
+    <figure>
+        <figcaption>Jetro Tull - Bouree</figcaption>
+        <audio src="music/bouree.mp3" controls preload="metadata"></audio>
+    </figure>
+    <figure>
+        <figcaption>OTOY - Find My Country</figcaption>
+        <audio src="music/otoy.mp3" controls preload="metadata"></audio>
+    </figure>
+</div>
 
+<div id="videoplayer">
+    <h2>Відео</h2>
+    <figure>
+        <figcaption>Сракадупа та Іван Семесюк</figcaption>
+        <video width="400" src="videos/v1.mp4" controls></video>
+    </figure>
+    <figure>
+        <figcaption>Сракдупа та Єгор Шатайло</figcaption>
+        <video width="400" src="videos/v2.mp4" controls></video>
+    </figure>
+    <figure>
+        <figcaption>Напад на популярного коміка Єгора Романенка</figcaption>
+        <video width="400" src="videos/v3.mp4" controls></video>
+    </figure>
+</div>
 </body>
 </html>
