@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#fon{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/0.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+#syrnyk{
+    background-image: url("images/1.png");
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: 456px 293px;
+    background-position: bottom left;
+}
+
+#haiechka{
+    background-image: url("images/5.png");
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: 231px 330px;
+    background-position: 268px 350px;
+}
+
+#deilVysyt{
+    background-image: url("images/6.png");
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: 138px 172px;
+    background-position: 287px 213px;
+}
+
+#deil{
+    background-image: url("images/3.png");
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: 180px 318px;
+    background-position: 800px 420px;
+}
+
+#chip{
+    background-image: url("images/2.png");
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: 206px 365px;
+    background-position: 940px 420px;
+}
+
+#gedz{
+    background-image: url("images/4.png");
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: 159px 222px;
+    background-position: 895px 575px;
+}
+
+
+
